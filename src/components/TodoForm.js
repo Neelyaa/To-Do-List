@@ -14,8 +14,8 @@ const handleSubmit = e => {
 
   return (
     <form className='TodoForm' onSubmit={handleSubmit}>
-      <input type='text' className='todo-input' value={value} placeholder='Task for today?' onChange={(e) => setValue(e.target.value)}/>
-      <button type='submit' className='todo-btn'>Add Task</button>
+      <input type='text' className='todo-input' value={value} placeholder="Tâche pour aujourd'hui ?" onChange={(e) => setValue(e.target.value)}/>
+      <button type='submit' className='todo-btn'>Ajouter</button>
     </form>
   )
 }
